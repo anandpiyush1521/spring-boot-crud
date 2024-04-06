@@ -49,8 +49,7 @@ public class ProductService {
 
             return productRepository.save(existingProduct);
         } else {
-            // Handle the case when the product with the given ID is not found
-            return null; // or throw an exception
+            return null;
         }
     }
 }
